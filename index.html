@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangit-Your favourative music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Sangit.jpg" alt="Sangit" >Sangeet</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Trending Nepali songs</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"> Sushant KC-Sarangi</span>
+                    <span class="songlistplay"><span class="timestamp">04:59 <i id="1" class="fa-regular songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"> Sushant KC-Sarangi </span>
+                    <span class="songlistplay"><span class="timestamp">02:31 <i id="2" class="fa-regular songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"> Sushant KC-Sarangi</span>
+                    <span class="songlistplay"><span class="timestamp">05:21 <i id="3" class="fa-regular songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"> Sushant KC-Sarangi</span>
+                    <span class="songlistplay"><span class="timestamp">05:00 <i id="4" class="fa-regular songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"> Sushant KC-Sarangi</span>
+                    <span class="songlistplay"><span class="timestamp">05:00 <i id="5" class="fa-regular songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x  fa-backward" id="previous"></i>
+            <i class="fa-regular fa-2x  fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-2x  fa-forward" id="next"></i>
+           
+            
+            <!--fontawsome icons-->
+        </div>
+        <div class="songInfo">
+            <img src="playing2.gif" width="100" id="gif"> <span id="masterSongName">Sushant Kc-Sarangi</span>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+body {
+    background-color: antiquewhite;
+}
+@media screen and (max-width:400px)  {
+    body{
+    background-color: red;
+    }
+    .container{
+        background-color: black;
+    }
+    .icons{
+        margin-top: auto;
+    }
+    .bottom{
+        background-color: black;
+    }
+    .songitemcontainer{
+        margin-top: auto;
+    }
+    .songItem{
+        margin:auto;
+    }
+    .songInfo{
+        left: auto;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family:'Lugrasimo', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none ;
+    height: 65px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 48px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    margin: 23px auto;
+    width: 100%;
+    border-radius: 12PX;
+    padding: 34px;
+    background-image: url('music.jpg');
+}
+/* .box { */
+    /* width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2 solid white;
+    border-radius: 10px;
+     */
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 76px;
+}
+.songItem{
+    height:20vx;
+    display:flex;
+    background-color: white;
+    width: 60vh;
+    color: black;
+    margin: 12px 2px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+    }
+
+.songItem img{
+    width: 80px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+ .songInfo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 2vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+ }
